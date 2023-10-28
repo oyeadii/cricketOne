@@ -327,7 +327,7 @@ class App(customtkinter.CTk):
             self.limit = 3
             self.daysgone=0
             self.otp1 = "0"
-            self.title("DGN Cricket")
+            self.title("CricketOne")
             self.geometry(f"{App.WIDTH}x{App.HEIGHT}")
             self.protocol("WM_DELETE_WINDOW", self.on_closing)  # call .on_closing() when app gets closed
             self.iconbitmap(False, relative_to_assets('favicon.ico'))
@@ -360,7 +360,7 @@ class App(customtkinter.CTk):
             self.label_0.grid(row=1, column=0)
 
             self.label_1 = customtkinter.CTkLabel(master=self.frame_left,
-                                                text="DGN Cricket v1.0",
+                                                text="CricketOne v1.0",
                                                 text_font=("Roboto Medium", -25))  # font name and size in px
             self.label_1.grid(row=2, column=0, pady=10, padx=10)
 
